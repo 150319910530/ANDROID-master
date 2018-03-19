@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tcc.tanalista">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icontanalista_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icontanalista_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".InicioActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaCompraActivity"
+            android:label="@string/title_activity_lista_compra"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tcc.tanalista.InicioActivity" />
+        </activity>
+        <activity
+            android:name=".MercadoListActivity"
+            android:label="@string/title_activity_mercado_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tcc.tanalista.MercadoListActivity" />
+        </activity>
+        <activity
+            android:name=".ListaProdMercadoActivity"
+            android:label="@string/title_activity_lista_prod_mercado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MercadoActivity"
+            android:label="@string/title_activity_mercado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MercadoProdutoActivity"
+            android:label="@string/title_activity_produto_mercado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProdutoActivity"
+            android:label="@string/title_activity_produto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProdutoMercadoActivity"
+            android:label="@string/title_activity_produto_mercado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NovaListadeCompra" />
+        <activity
+            android:name=".ProdutoListaActivity"
+            android:label="@string/title_activity_produto_lista"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

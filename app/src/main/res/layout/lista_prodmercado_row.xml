@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+
+    <TextView
+        android:id="@+id/nome_prod_lista_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="NomeProduto"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/valor_lista_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Valor do Produto"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/nome_prod_lista_row"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

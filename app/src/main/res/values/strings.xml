@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tá Na Lista</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_activity_lista_compra">Lista de Compra - Tá na Lista</string>
+    <string name="title_activity_mercado_list">Mercado - Tá na Lista</string>
+    <string name="title_activity_lista_prod_mercado">Produto - Tá na Lista</string>
+    <string name="title_activity_mercado">Mercado - Tá na Lista</string>
+    <string name="title_activity_produto_mercado">Mercado - Tá na Lista</string>
+    <string name="title_activity_produto">Produto - Tá na Lista</string>
+    <string name="title_activity_produto_lista">Editar Lista Compra</string>
+
+</resources>
