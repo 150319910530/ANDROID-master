@@ -15,7 +15,7 @@ import tcc.tanalista.R;
  * Created by jucel on 22/03/2017.
  */
 
-public class MercadoAdapter extends RecyclerView.Adapter<MercadoAdapter.MyViewHolder> {
+public class   MercadoAdapter extends RecyclerView.Adapter<MercadoAdapter.MyViewHolder> {
 
     private List<Mercados> mercadosList;
 
